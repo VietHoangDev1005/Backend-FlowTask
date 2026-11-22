@@ -1,0 +1,67 @@
+# ===== Bí mật và cấu hình cục bộ (KHÔNG BAO GIỜ push) =====
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+*.pfx
+*.p12
+*.key
+*.pem
+firebase*.json
+*service-account*.json
+
+# ===== .NET build =====
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+artifacts/
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+launchSettings.json.user
+
+# ===== Test, log, coverage =====
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+*.log
+logs/
+
+# ===== Visual Studio / VS Code / Rider =====
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+.idea/
+*.swp
+
+# ===== Hệ điều hành =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== File tạm của Office (đang mở docx/xlsx) =====
+~$*
+.~lock.*
+
+# ===== Lưu trữ file cục bộ =====
+storage/
+
+# ===== Công cụ AI cục bộ =====
+.claude/
+Claude-Skills/
